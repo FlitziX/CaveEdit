@@ -10,14 +10,18 @@ This is my first ever C:U mod as well as my first ever time using C#, so expect 
 ## Current:
 -Building wand item that lets you free-hand place rectangles of a chosen tile
 
--wandsettile command to set the tile used by the held wand
+-wandsettile command to set the tile used by the held wand (e.g. wandsettile 12)
 
--wandpicktile command to select the currently hovered over tile as the tile used by the wand
+-wandpicktile command to select the currently hovered over tile as the tile used by the wand (hover over any tile and execute wandpicktile)
 
--wandspawnalltiles command to place every tile currently in the game (for use with wandpicktile) - THIS NEEDS SOME WORK STILL (although it does work technically)
+|For these two you will need to hold a wand, wands store their settings
+
+-wandspawnalltiles command to place every tile currently in the game (for use with wandpicktile, it will spawn the tiles at  the position the cursor was located when the console was opened)
 
 
 ## Planned:
+-Make it compatible with modded tiles (I'm sure that won't be a pain in the ass to figure out)
+
 -Shape placers for Circles/Lines/Squares/etc.
 
 -Entity placer for easily putting down entities (maybe)
@@ -28,5 +32,9 @@ This is my first ever C:U mod as well as my first ever time using C#, so expect 
 
 -Undo feature (if i manage that)
 
-# How to download
-I'll put this here when i actually upload something
+# How to use
+-1: Download the .zip file
+
+-2: Unzip it in the BepInEx/plugins folder
+
+This mod requires CUCoreLib and BepInEx (obviously)
